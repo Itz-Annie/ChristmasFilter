@@ -1,0 +1,25 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+#Heading
+{
+    font-size: 23px;
+}
+
+btn-danger:hover{
+background-color: mediumseagreen;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0%{box-shadow: 1px 1px 38px mediumseagreen;}
+    50%{box-shadow: 1px 1px 38px rgb(233, 16, 16);}
+    100%{box-shadow: 1px 1px 38px rgb(98, 236, 5);}
+}
